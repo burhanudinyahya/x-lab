@@ -3,10 +3,10 @@ X-LAB is a simple CMS with PHP Procedural style, this project still in progress.
 
 # Sreenshots
 
-![alt tag](https://github.com/burhanudinyahya/x-lab/raw/master/screenshot/home.jpg)
-![alt tag](https://github.com/burhanudinyahya/x-lab/raw/master/screenshot/blog.jpg)
-![alt tag](https://github.com/burhanudinyahya/x-lab/raw/master/screenshot/portofolio.jpg)
-![alt tag](https://github.com/burhanudinyahya/x-lab/raw/master/screenshot/login.jpg)
+![alt tag](https://github.com/burhanudinyahya/x-lab/raw/master/screenshot/home.png)
+![alt tag](https://github.com/burhanudinyahya/x-lab/raw/master/screenshot/blog.png)
+![alt tag](https://github.com/burhanudinyahya/x-lab/raw/master/screenshot/portofolio.png)
+![alt tag](https://github.com/burhanudinyahya/x-lab/raw/master/screenshot/login.png)
 
 ## Tools dan Framework
 * Apache 2.4.25
