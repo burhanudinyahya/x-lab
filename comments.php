@@ -7,6 +7,8 @@ if($comments = comment_by_id($id_a)){
 	$jumlah_komen = mysqli_num_rows($comments);
 }
 
+require_once "x-comments-post.php";
+
 ?>
 
 <?php if(!$comments){ ?>
@@ -42,7 +44,7 @@ if($comments = comment_by_id($id_a)){
 	<?php } ?>
 	<div id="responds" class="panel panel-default">
 	  <div class="panel-body">
-      <form action="<?= $base_url; ?>x-comments-post.php" method="post">
+      <form action="" method="post">
         <div class="form-group">
         <textarea name="isi_komen" class="form-control" required rows="10" cols="45" maxlength="65525"></textarea>
         </div>

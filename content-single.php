@@ -46,11 +46,9 @@ require_once "views/head_title.php";
                 <h3>Belum ada artikel terkait</h3>
                 <hr>
             </div>
-            <!--
             <div class="form-komentar">
                 <?php require_once "comments.php"; ?>
             </div>
-            -->
         </div>
 
 <?php 
