@@ -8,7 +8,7 @@ require_once "functions/slug.php";
 require_once "functions/visitor.php";
 
 $base_url              = ((isset($_SERVER['HTTPS']) && $_SERVER['HTTPS'] == "on") ? "https" : "http");
-$base_url              = $base_url.'://'.$_SERVER['HTTP_HOST'].'/x-lab/';
+$base_url              = $base_url.'://'.$_SERVER['HTTP_HOST'].'/';
 // print_r($base_url);
 if(isset($page_title)){
 	$_SESSION['web_title'] = $page_title;

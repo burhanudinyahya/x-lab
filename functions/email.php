@@ -17,7 +17,7 @@ function sendKey($email, $user, $key)
   $headers .= "MIME-Version: 1.0\r\n";
   $headers .= "Content-Type: text/html; charset=ISO-8859-1\r\n";
 
-  return mail("$to", "$subject", "$pesan", "$headers", "-fno-reply@x-lab.com");  
+  return mail("$to", "$subject", "$pesan", "$headers", "no-reply@x-lab.com");  
 }
     
 ?>

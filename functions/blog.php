@@ -34,10 +34,10 @@ function view_post_id($id, $slug)
 }
 
 //menampilkan slug
-function view_post_slug($slug)
+function view_post_slug($id, $slug)
 {
 	$query = "SELECT * FROM tb_posts 
-						WHERE title_slug='$slug'";
+						WHERE ID=$id AND title_slug='$slug'";
 
 	return result($query);
 }

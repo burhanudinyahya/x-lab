@@ -1,6 +1,6 @@
 <?php
 $page_title = $web_title = $title_a = '404 Page Not Found';
-$base_url   = 'http://'.$_SERVER['HTTP_HOST'].'/x-lab/';
+$base_url   = 'http://'.$_SERVER['HTTP_HOST'].'/';
 require_once "views/header.php";
 require_once "views/navbar.php";
 require_once "views/page_title.php";

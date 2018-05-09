@@ -32,7 +32,7 @@ require_once "views/head_title.php";
       <?php if($posts){ ?>
 		  <?php while($rows = mysqli_fetch_assoc($posts)): ?>
       <div class="posts">
-        <h2><a href="<?= $base_url ?>blog/<?= $rows['title_slug']; ?>"><?= $rows['post_title'] ?></a></h2>
+        <h2><a href="<?= $base_url ?>blog/<?= $rows['title_slug']."-".$rows['ID']; ?>"><?= $rows['post_title'] ?></a></h2>
           <ul class="meta-post">
             <li class="meta-item">
               <span class="glyphicon glyphicon-calendar"></span> <p><?= date_format(date_create($rows['post_date']), 'F j, Y'); ?></p>
